@@ -29,8 +29,6 @@ export KEYTIMEOUT=20
 alias sz="source ~/.zshrc"
 alias st="tmux source-file ~/.tmux.conf"
 alias z="vim ~/.zshrc"
-alias t="vim ~/.tmux.conf"
-alias v="vim ~/.vimrc"
 
 # ==============================================================================
 # ALIASES - TOOL PREFERENCES
@@ -42,17 +40,11 @@ alias fzf="fzf --color fg:242,bg:233,hl:65,fg+:15,bg+:234,hl+:108 --color info:1
 # Use neovim instead of vim
 alias vim="nvim"
 
-# Review branch (requires review-branch script)
-alias rb="review-branch"
-
 # Resume Claude Code session with permission checks skipped
 alias cc="claude --dangerously-skip-permissions -c"
 
 # Ag with sensible ignore directories
 alias ag="ag --ignore-dir playground --ignore-dir virtualenv_run --ignore-dir virtualenv_run_py27 --ignore-dir log --ignore-dir node_modules --ignore-dir coverage --ignore-dir logs --ignore-dir venv  --ignore-dir virtualenv_py3  --ignore-dir docker-venv-py3"
-
-# IPython with vi mode
-alias ipython="ipython --TerminalInteractiveShell.editing_mode=vi"
 
 # ==============================================================================
 # KEYBINDINGS
